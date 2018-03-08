@@ -78,9 +78,11 @@ a.navbar-brand.w3-logo:hover {
 .w3ls-nav li a.scroll {
     color: #000080;
     font-size: 16px;
+    font-weight: bold;
+    opacity: 3;
 }
 .w3ls-nav li a.scroll:hover {
-    color: yellow;
+    color: black;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus {
     color: #fff;
@@ -91,8 +93,11 @@ a.navbar-brand.w3-logo:hover {
 }
 .w3ls-navbar {
 	padding: 10px 0;
-    background-color: rgba(105, 210, 231, 0.92);
-    border-color: rgba(0, 0, 0, 0.11);
+    /* background-color: rgba(105, 210, 231, 0.92);*/
+    background-color:transparent;
+    opacity: 3;
+   /* border-color: rgba(0, 0, 0, 0.11);*/
+   border-color:transparent;
 }
 .w3-banner-heading {
      color: white;
